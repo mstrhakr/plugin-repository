@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Plugin>True</Plugin>
+    <PluginURL>https://raw.githubusercontent.com/mstrhakr/compose_plugin/main/compose.manager.plg</PluginURL>
+    <PluginAuthor>mstrhakr</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools: Tools:System</Category>
+    <Name>Compose Manager Plus</Name>
+    <Description>
+        Adds Docker Compose v2 and a native web UI for managing Compose
+        stacks from the unRAID interface. Core features include creating
+        and editing stacks, environment-variable templates, per-stack
+        start/stop/recreate controls, log viewing, and import/export of
+        stack definitions. See the repository for documentation and to
+        report issues: https://github.com/mstrhakr/compose_plugin/issues
+    </Description>
+    <Overview>Lightweight web UI for managing Docker Compose v2 stacks on unRAID.</Overview>
+    <Project>https://github.com/mstrhakr/compose_plugin</Project>
+    <Licence></Licence>
+    <Requires></Requires>
+    <RequiresFile></RequiresFile>
+    <DonateText></DonateText>
+    <DonateLink></DonateLink>
+    <Support>https://github.com/mstrhakr/compose_plugin/issues</Support>
+    <Icon></Icon>
+    <IconFA>cubes</IconFA>
+</Containers>
