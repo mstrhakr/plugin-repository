@@ -14,7 +14,7 @@
         stack definitions. See the repository for documentation and to
         report issues: https://github.com/mstrhakr/compose_plugin/issues
     </Description>
-    <Overview>Lightweight web UI for managing Docker Compose v2 stacks on unRAID.</Overview>
+    <Overview>Fully integrated web UI for managing Docker Compose v2 stacks on unRAID.</Overview>
     <Project>https://github.com/mstrhakr/compose_plugin</Project>
     <Licence></Licence>
     <Requires></Requires>
