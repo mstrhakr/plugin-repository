@@ -7,7 +7,7 @@
     <Category>Tools: Tools:System</Category>
     <Name>Compose Manager Plus</Name>
     <Description>
-        Adds Docker Compose v2 and a native web UI for managing Compose
+        Adds Docker Compose and a native web UI for managing Compose
         stacks from the unRAID interface. Core features include creating
         and editing stacks, environment-variable templates, per-stack
         start/stop/recreate controls, log viewing, and import/export of
