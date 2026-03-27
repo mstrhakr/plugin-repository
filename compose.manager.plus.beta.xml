@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-    <Plugin>True</Plugin>
-    <PluginURL>https://raw.githubusercontent.com/mstrhakr/compose_plugin/dev/compose.manager.plg</PluginURL>
-    <PluginAuthor>mstrhakr</PluginAuthor>
-    <Beta>True</Beta>
-    <Category>Tools: Tools:System</Category>
-    <Name>Compose Manager Plus (Beta)</Name>
-    <Overview>
-        (BETA) Fully integrated web UI for managing Docker Compose stacks on unRAID.
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/mstrhakr/compose_plugin/dev/compose.manager.plg</PluginURL>
+<PluginAuthor>mstrhakr</PluginAuthor>
+<Beta>True</Beta>
+<Category>Tools: Tools:System</Category>
+<Name>Compose Manager Plus (Beta)</Name>
+<Description>
+(BETA) Fully integrated web UI for managing Docker Compose stacks on unRAID.
 
-        This is a beta release of Compose Manager Plus, if you did not
-        specifically seek out this beta version, please use the stable
-        release instead. This version may contain bugs and is not recommended
-        for production use. Please report any issues you encounter to help
-        improve the plugin: https://github.com/mstrhakr/compose_plugin/issues
+This is a beta release of Compose Manager Plus, if you did not specifically seek out this beta version, please use the stable release instead. This version may contain bugs and is not recommended for production use. Please report any issues you encounter to help improve the plugin: https://github.com/mstrhakr/compose_plugin/issues
 
-        Adds Docker Compose and a native web UI for managing Compose
-        stacks from the unRAID interface. Core features include creating
-        and editing stacks, environment-variable templates, per-stack
-        start/stop/recreate controls, log viewing, and import/export of
-        stack definitions. See the repository for documentation and to
-        report issues: https://github.com/mstrhakr/compose_plugin/issues
-    </Overview>
-    <Project>https://github.com/mstrhakr/compose_plugin</Project>
-    <Licence></Licence>
-    <Requires></Requires>
-    <RequiresFile></RequiresFile>
-    <DonateText></DonateText>
-    <DonateLink></DonateLink>
-    <Support>https://forums.unraid.net/topic/197334-plugin-compose-manager-plus/</Support>
-    <Icon></Icon>
-    <IconFA>cubes</IconFA>
+Adds Docker Compose and a native web UI for managing Compose stacks from the unRAID interface. Core features include creating and editing stacks, environment-variable templates, per-stack start/stop/recreate controls, log viewing, and import/export of stack definitions. See the repository for documentation and to report issues: https://github.com/mstrhakr/compose_plugin/issues </Description>
+<Project>https://github.com/mstrhakr/compose_plugin</Project>
+<Licence></Licence>
+<Requires></Requires>
+<RequiresFile></RequiresFile>
+<DonateText></DonateText>
+<DonateLink></DonateLink>
+<Support>https://forums.unraid.net/topic/197334-plugin-compose-manager-plus/</Support>
+<Icon></Icon>
+<IconFA>cubes</IconFA>
 </Containers>
