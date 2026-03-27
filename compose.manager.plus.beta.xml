@@ -6,7 +6,9 @@
     <Beta>True</Beta>
     <Category>Tools: Tools:System</Category>
     <Name>Compose Manager Plus (Beta)</Name>
-    <Description>
+    <Overview>
+        (BETA) Fully integrated web UI for managing Docker Compose stacks on unRAID.
+
         This is a beta release of Compose Manager Plus, if you did not
         specifically seek out this beta version, please use the stable
         release instead. This version may contain bugs and is not recommended
@@ -19,8 +21,7 @@
         start/stop/recreate controls, log viewing, and import/export of
         stack definitions. See the repository for documentation and to
         report issues: https://github.com/mstrhakr/compose_plugin/issues
-    </Description>
-    <Overview>(BETA) Fully integrated web UI for managing Docker Compose v2 stacks on unRAID.</Overview>
+    </Overview>
     <Project>https://github.com/mstrhakr/compose_plugin</Project>
     <Licence></Licence>
     <Requires></Requires>
