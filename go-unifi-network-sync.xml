@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>go-unifi-network-list-sync</Name>
+    <Repository>ghcr.io/mstrhakr/go-unifi-network-list-sync</Repository>
+    <Registry>https://github.com/orgs/mstrhakr/packages/container/package/go-unifi-network-list-sync</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/mstrhakr/go-unifi-network-list-sync/issues/</Support>
+    <Shell>bash</Shell>
+    <GitHub>https://github.com/mstrhakr/go-unifi-network-list-sync#usage</GitHub>
+    <ReadMe>https://github.com/mstrhakr/go-unifi-network-list-sync#readme</ReadMe>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Stable releases</TagDescription>
+    </Branch>
+    <Branch>
+        <Tag>main</Tag>
+        <TagDescription>Latest commits from the main branch</TagDescription>
+        <ReadMe>https://github.com/mstrhakr/go-unifi-network-list-sync/tree/main#readme</ReadMe>
+        <GitHub>https://github.com/mstrhakr/go-unifi-network-list-sync/tree/main#usage</GitHub>
+    </Branch>
+    <Overview>Keep UniFi firewall/address groups in sync with DNS hostnames and static CIDRs using a web UI, scheduled jobs, multi-resolver lookups, and run-history diffs.</Overview>
+    <WebUI>http://[IP]:[PORT:8080]</WebUI>
+    <TemplateURL>https://raw.githubusercontent.com/mstrhakr/plugin-repository/main/go-unifi-network-list-sync.xml</TemplateURL>
+    <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="HTTP port for the WebUI." Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/go-unifi-network-list-sync" Mode="rw" Description="Persistent config files" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+</Container>
