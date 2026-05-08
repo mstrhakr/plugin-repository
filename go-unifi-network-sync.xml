@@ -19,6 +19,8 @@
         <ReadMe>https://github.com/mstrhakr/go-unifi-network-list-sync/tree/main#readme</ReadMe>
         <GitHub>https://github.com/mstrhakr/go-unifi-network-list-sync/tree/main#usage</GitHub>
     </Branch>
+    <Category>Network:Web Network:Management Network:Other Security: Tools:</Category>
+    <Icon>https://raw.githubusercontent.com/mstrhakr/go-unifi-network-list-sync/main/docs/logo.png</Icon>
     <Overview>Keep UniFi firewall/address groups in sync with DNS hostnames and static CIDRs using a web UI, scheduled jobs, multi-resolver lookups, and run-history diffs.</Overview>
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/mstrhakr/plugin-repository/main/go-unifi-network-list-sync.xml</TemplateURL>
