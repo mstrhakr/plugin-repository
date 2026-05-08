@@ -5,7 +5,6 @@
     <Registry>https://github.com/orgs/mstrhakr/packages/container/package/audplexus</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Beta>True</Beta>
     <Support>https://github.com/mstrhakr/audplexus/issues/</Support>
     <Shell>sh</Shell>
     <GitHub>https://github.com/mstrhakr/audplexus#configuration</GitHub>
@@ -20,8 +19,8 @@
         <ReadMe>https://github.com/mstrhakr/audplexus/tree/master#readme</ReadMe>
         <GitHub>https://github.com/mstrhakr/audplexus/tree/master#configuration</GitHub>
     </Branch>
-    <Category>Downloaders:MediaApp:Network:Web</Category>
-    <Icon>https://raw.githubusercontent.com/mstrhakr/audplexus/master/logo.png</Icon>
+    <Beta>True</Beta>
+    <Category>Downloaders: MediaApp:Books MediaApp:Other</Category>    <Icon>https://raw.githubusercontent.com/mstrhakr/audplexus/master/logo.png</Icon>
     <Overview>Download Audible titles, remove DRM with FFmpeg, enrich metadata from Audnexus, and organize audiobooks for Plex from a web UI.</Overview>
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/mstrhakr/plugin-repository/main/audplexus.xml</TemplateURL>
