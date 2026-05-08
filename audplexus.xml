@@ -5,6 +5,7 @@
     <Registry>https://github.com/orgs/mstrhakr/packages/container/package/audplexus</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
+    <Beta>True</Beta>
     <Support>https://github.com/mstrhakr/audplexus/issues/</Support>
     <Shell>sh</Shell>
     <GitHub>https://github.com/mstrhakr/audplexus#configuration</GitHub>
