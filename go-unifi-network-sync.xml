@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-    <Name>go-unifi-network-list-sync</Name>
+    <Name>Unifi Network List Sync</Name>
     <Repository>ghcr.io/mstrhakr/go-unifi-network-list-sync</Repository>
     <Registry>https://github.com/orgs/mstrhakr/packages/container/package/go-unifi-network-list-sync</Registry>
     <Network>bridge</Network>
