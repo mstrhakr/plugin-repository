@@ -7,7 +7,6 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/mstrhakr/go-unifi-network-list-sync/issues/</Support>
     <Shell>sh</Shell>
-    <GitHub>https://github.com/mstrhakr/go-unifi-network-list-sync#usage</GitHub>
     <ReadMe>https://github.com/mstrhakr/go-unifi-network-list-sync#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>

@@ -7,7 +7,6 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/mstrhakr/audplexus/issues/</Support>
     <Shell>sh</Shell>
-    <GitHub>https://github.com/mstrhakr/audplexus#configuration</GitHub>
     <ReadMe>https://github.com/mstrhakr/audplexus#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>
