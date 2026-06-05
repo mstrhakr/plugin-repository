@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>Unifi Network List Sync</Name>
-    <Repository>ghcr.io/mstrhakr/go-unifi-network-list-sync</Repository>
+    <Repository>ghcr.io/mstrhakr/go-unifi-network-list-sync:latest</Repository>
     <Registry>https://github.com/orgs/mstrhakr/packages/container/package/go-unifi-network-list-sync</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
     <Support>https://github.com/mstrhakr/go-unifi-network-list-sync/issues/</Support>
     <Shell>sh</Shell>
     <ReadMe>https://github.com/mstrhakr/go-unifi-network-list-sync#readme</ReadMe>
-    <Branch>
-        <Tag>latest</Tag>
-        <TagDescription>Stable releases</TagDescription>
-    </Branch>
+    <Deprecated>true</Deprecated>
+    <DefaultTagDescription>Stable releases</DefaultTagDescription>
     <Branch>
         <Tag>main</Tag>
         <TagDescription>Latest commits from the main branch</TagDescription>
@@ -25,7 +23,7 @@
     <TemplateURL>https://raw.githubusercontent.com/mstrhakr/plugin-repository/main/go-unifi-network-list-sync.xml</TemplateURL>
     <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="HTTP port for the WebUI." Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/go-unifi-network-list-sync" Mode="rw" Description="Persistent config files" Type="Path" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="PUID" Target="PUID" Default="99" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="PGID" Target="PGID" Default="100" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="UMASK" Target="UMASK" Default="022" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="User ID to run the container as." Type="Variable" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="Group ID to run the container as." Type="Variable" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="File creation mask for the container." Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
