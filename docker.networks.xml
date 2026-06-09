@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/mstrhakr/docker.networks/main/docker.networks.plg</PluginURL>
+<PluginAuthor>mstrhakr</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools: Tools:System</Category>
+<Name>Docker Networks</Name>
+<Description>
+Manage Docker networks directly from the Unraid web UI.
+
+Adds a native web UI for creating, editing, connecting, and deleting Docker networks from the Unraid interface. See the repository for documentation and to report issues: https://github.com/mstrhakr/docker.networks/issues</Description>
+<Project>https://github.com/mstrhakr/docker.networks</Project>
+<Licence></Licence>
+<Requires></Requires>
+<RequiresFile></RequiresFile>
+<DonateText></DonateText>
+<DonateLink></DonateLink>
+<Support>https://forums.unraid.net/topic/199371-plugin-docker-network-manager/</Support>
+<IconFA>sitemap</IconFA>
+</Containers>
